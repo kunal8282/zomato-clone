@@ -1,4 +1,4 @@
-import FilterBox from "../Components/Filterbox";
+import DeliveryPage from "./DeliveryPage";
 
 const Body = () => {
   return (
@@ -14,7 +14,7 @@ const Body = () => {
        *  - restaurant Cards
        */}
 
-      <nav className="border-b mt-4 py-4 px-2">
+      <nav className="border-b my-4 py-4 px-2">
         <ul className="flex gap-10">
           <li className="text-xl cursor-pointer">
             {" "}
@@ -45,14 +45,8 @@ const Body = () => {
       </nav>
 
 
-
-      <div className="flex gap-2 mt-4">
-        <FilterBox name={"Fitlers"}  />
-        <FilterBox name = {"Cost $200 - Any"} />
-        <FilterBox name = {"Rating: 4.0+"} />
-        <FilterBox name = {"Cusinies"}>  </FilterBox>
-
-      </div>
+       <DeliveryPage />
+  
     </>
   );
 };
