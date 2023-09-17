@@ -1,15 +1,8 @@
-import Header from "./Components/Header";
-import Body from "./Pages/Body";
+import HomePage from "./Pages/HomePage";
 
 const App = () => {
   return(
-    <>
-      <div className="w-4/5 m-auto">
-        <Header />
-        <Body />
-      </div>
-     
-    </>
+    <HomePage />
   )
 }
 
